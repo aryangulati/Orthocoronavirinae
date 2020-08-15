@@ -1,1 +1,1 @@
-web:gunicorn covidanalysisb:app
+web:gunicorn covidanalysis:app
