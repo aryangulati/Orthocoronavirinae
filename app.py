@@ -5,6 +5,8 @@ def top_countries(n=20):
     df=country_wise.nlargest(n, 'Confirmed')
     return df
 
+
+
 df=top_countries()
 pairs=[(country,confirmed) for country,confirmed in zip(df.index,df['Confirmed'])]
     
